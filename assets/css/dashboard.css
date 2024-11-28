@@ -1,0 +1,88 @@
+/* 侧边栏样式 */
+.sidebar {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.sidebar-brand {
+    height: 4.375rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.sidebar .nav-item {
+    position: relative;
+}
+
+.sidebar .nav-link {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    color: rgba(255,255,255,.8);
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background: rgba(255,255,255,.15);
+}
+
+.sidebar .nav-link i {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+/* 主内容区域样式 */
+.main-content {
+    margin-left: 225px;
+    padding: 1.5rem;
+}
+
+/* 统计卡片样式 */
+.stat-card {
+    border-left: 4px solid;
+    border-radius: 0.35rem;
+}
+
+.stat-card.primary { border-left-color: #4e73df; }
+.stat-card.success { border-left-color: #1cc88a; }
+.stat-card.info { border-left-color: #36b9cc; }
+.stat-card.warning { border-left-color: #f6c23e; }
+
+.stat-card .stat-icon {
+    font-size: 2rem;
+    opacity: 0.3;
+}
+
+/* 图表容器样式 */
+.chart-container {
+    position: relative;
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.1);
+}
+
+/* 活动列表样式 */
+.activity-list .list-group-item {
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.activity-list .list-group-item:hover {
+    border-left-color: #4e73df;
+    background-color: #f8f9fc;
+} 
